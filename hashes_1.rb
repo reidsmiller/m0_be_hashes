@@ -49,14 +49,24 @@ p foods
 
 # Write code that prints your email hash to the terminal.
 
+email = {
+  sender: "Obama",
+  reciever: "Reid",
+  subject_line: "Hey",
+  message_content: "Hey Reid, Let's hang out. It'd be chill. - O",
+  date_sent: "01/13/23"
+}
+p email
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
 # YOUR CODE HERE
+puts email.keys
 
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
 # YOUR CODE HERE
+puts email.values
 
 
 #-------------------
@@ -107,3 +117,29 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails = [
+  {
+  sender: "the.real.obama@president.gov",
+  reciever: "reid.s.miller@gmail.com",
+  subject_line: "Hey",
+  message_content: "Hey Reid, Let's hang out. It'd be chill. - O",
+  date_sent: "01/13/23"
+  },
+  {
+  sender: "reid.s.miller@gmail.com",
+  reciever: "the.real.obama@president.gov",
+  subject_line: "Re: Hey",
+  message_content: "Sure 'Bama! Grill some veggies and old school LAN party at casa de mi on Tuesday? - Riz",
+  date_sent: "01/13/23"
+  },
+  {
+  sender: "the.real.obama@president.gov",
+  reciever: "reid.s.miller@gmail.com",
+  subject_line: "Re:Re: Hey",
+  message_content: "Sounds schwimpin'. Be there at 4. I'll bring the kombuch'! - Bdoggggggggggg",
+  date_sent: "01/13/23"
+  }
+]
+
+p emails
